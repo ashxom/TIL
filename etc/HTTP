@@ -1,11 +1,11 @@
-# 2025-07-18
+## 2025-07-18
 
-# HTTP란?
+## HTTP란?
 
 HTTP (Hyper Text Transfer Protocol)는 웹 브라우저와 서버 간에 데이터를 주고받기 위한 프로토콜입니다.
 즉, 웹 페이지를 표시하거나 다른 리소스를 요청하고 받는 규칙을 정의합니다. 
 
-# TCP란?
+## TCP란?
 
 - Transmission Control Protocol.
 - 1:1 연결을 지향하며 신뢰할 수 있는 통신을 제공함 (여기서 1:1은 각각 클라이언트와 서버를 의미함)
@@ -13,7 +13,7 @@ HTTP (Hyper Text Transfer Protocol)는 웹 브라우저와 서버 간에 데이�
 - 일반적인 HTTP 통신은 TCP 방식을 따르고 있음
 - 3 way handshake 를 사용함 (서버 연결된 거 미리 확인 후 메세지 전송, 메시지 전송 중 누락 확인 가능, 순서가 잘못 됐을 때 서버에서 해당 패킷부터 보내라고 요청)
 
-# UDP란?
+## UDP란?
 
 - User Datagram Protocol.
 - 1:1 혹은 1:N 비연결을 지향하며 신뢰할 수 없는 통신을 제공함
