@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
 # MVVM (Model–View–ViewModel) 
 
-- **아이디어**: `ViewModel`이 **상태(LiveData/Flow)**를 관리, `Activity`는 **관찰**만.
+- **아이디어**: `ViewModel`이 상태(LiveData/Flow)를 관리, `Activity`는 **관찰**만.
 - **장점**: 결합도↓, 수명주기 안전, Jetpack 지원 좋음
 - **언제**: 대부분의 실제 앱(특히 서버/DB/리스트 많은 앱).
 
