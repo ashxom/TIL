@@ -12,15 +12,15 @@
 
 → 아이디, 비밀번호 서버로 전송
 
-1. 서버에서 계정 확인 후 Access Token 발급
+2. 서버에서 계정 확인 후 Access Token 발급
 
 → 이게 Bearer Token 
 
-1. 앱은 받은 토큰을 저장
+3. 앱은 받은 토큰을 저장
 
 → SharedPreferences 등에 보관
 
-1. 이후 요청마다 헤더에 포함시켜 전송
+4. 이후 요청마다 헤더에 포함시켜 전송
 
 ```vhdl
 Authorization: Bearer [access_token]
