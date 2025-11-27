@@ -24,3 +24,5 @@
 - **데이터 바인딩 (DataBinding)**: XML에서 코드-데이터 연결을 직접 작성하고, 자동 UI 업데이트 + MVVM용. 조금 무겁지만 기능은 강력.
 
 프로젝트가 작고 간단하면 **ViewBinding만으로 충분하고**, UI와 데이터 자동 연동→ **DataBinding이 더 편할 수 있음.**
+
+바인딩은 XML 뷰를 코드와 연결해주는 기술이고, ViewBinding은 findViewById 없이 안전하게 뷰에 접근할 수 있게 해주는 방식입니다. DataBinding은 여기에 데이터까지 XML에서 직접 처리할 수 있는 확장된 버전입니다.
